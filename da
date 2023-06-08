@@ -1,0 +1,496 @@
+[33mcommit d358160b69ab18e7b6d59eb77508a66e4e02402d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: yang <2050231228@qq.com>
+Date:   Thu Jun 8 16:45:26 2023 +0800
+
+    一个小测试
+
+[33mcommit c060395cdae5415746dafd10c6d1ec7a35ad3ec9[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 3894c816b c4bc47efe
+Author: Kazuki Shimizu <kazuki43zoo@gmail.com>
+Date:   Thu Jun 1 20:31:48 2023 +0900
+
+    Merge pull request #2884 from mybatis/renovate/testcontainers-java-monorepo
+    
+    Update testcontainers-java monorepo to v1.18.3
+
+[33mcommit c4bc47efe848ee3bb157c48af7af154173a4641e[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Wed May 31 23:02:48 2023 +0000
+
+    Update testcontainers-java monorepo to v1.18.3
+
+[33mcommit 3894c816ba3b0f8f45cb6bec80c200ab50fe034c[m
+Merge: 040ab7925 39f25275f
+Author: Kazuki Shimizu <kazuki43zoo@gmail.com>
+Date:   Wed May 31 23:46:28 2023 +0900
+
+    Merge pull request #2885 from kazuki43zoo/drop-support-jdk19-on-ci
+    
+    Drop jdk 19 on CI
+
+[33mcommit 39f25275fffdbd280a17fe8db59fe0e74acd926a[m
+Author: Kazuki Shimizu <kazuki43zoo@gmail.com>
+Date:   Wed May 31 23:31:54 2023 +0900
+
+    Drop jdk 19 on CI
+
+[33mcommit 040ab79255f0d62eac0b495aab7cc04cc5d55b83[m
+Merge: 4407b7915 7e3dee013
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Mon May 29 22:13:09 2023 -0400
+
+    Merge pull request #2882 from mybatis/renovate/org.mybatis-mybatis-parent-38.x
+    
+    Update dependency org.mybatis:mybatis-parent to v38
+
+[33mcommit 7e3dee0139d004ea06857f66c5f868215fc65b71[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Tue May 30 01:25:46 2023 +0000
+
+    Update dependency org.mybatis:mybatis-parent to v38
+
+[33mcommit 4407b7915e8f3934e15a73da800975c700fb01b8[m
+Merge: 273ce32c1 4eb2eb391
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Sat May 13 21:46:31 2023 -0400
+
+    Merge pull request #2875 from mybatis/renovate/testcontainers-java-monorepo
+    
+    Update testcontainers-java monorepo to v1.18.1
+
+[33mcommit 273ce32c10c13b711971c2a385283bfe14550572[m
+Merge: 913154d2e 09eeb6c23
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Sat May 13 21:46:23 2023 -0400
+
+    Merge pull request #2876 from mybatis/renovate/maven-3.x
+    
+    Update dependency maven to v3.9.2
+
+[33mcommit 09eeb6c231bff88fe4dcff99412fa5144fbd21d6[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Thu May 11 08:06:22 2023 +0000
+
+    Update dependency maven to v3.9.2
+
+[33mcommit 4eb2eb391ec1843560810c9be3eaea8548bc0e31[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Thu May 11 05:57:18 2023 +0000
+
+    Update testcontainers-java monorepo to v1.18.1
+
+[33mcommit 913154d2ee3f0bdeda6227f2af2ec124e9894988[m
+Merge: a10d91d5d ba7fe1a34
+Author: Iwao AVE! <harawata@gmail.com>
+Date:   Mon May 8 02:11:31 2023 +0900
+
+    Merge pull request #2874 from harawata/undo-invalid-code-optimization
+    
+    Undo invalid code optimization
+
+[33mcommit ba7fe1a34e1569f480ad07aac487eb3059ae022c[m
+Author: Iwao AVE! <harawata@gmail.com>
+Date:   Mon May 8 01:20:47 2023 +0900
+
+    The same correction
+
+[33mcommit 1df8f0ea4f8bafbd33ab83d35a1f308f9b5656a2[m
+Author: Iwao AVE! <harawata@gmail.com>
+Date:   Mon May 8 01:14:11 2023 +0900
+
+    Undo invalid code optimization
+    
+    It's a common mistake, but optimizing the condition breaks the contract.
+    The code must invoke getUpdateCount()
+    Added a stronger comment.
+    
+    Related to #1095
+
+[33mcommit a10d91d5d93eaf6ca2fb48684743189f5f988d9f[m
+Merge: e86243d3c 47977bacf
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Wed Apr 26 20:43:42 2023 -0400
+
+    Merge pull request #2872 from mybatis/renovate/junit5-monorepo
+    
+    Update junit5 monorepo to v5.9.3
+
+[33mcommit 47977bacf99d7baaf7a08eeabac17fc86abf8b0d[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Wed Apr 26 10:03:32 2023 +0000
+
+    Update junit5 monorepo to v5.9.3
+
+[33mcommit e86243d3cd35a85ad9677df22f4fbfc1349dd390[m
+Merge: 0eeb00b79 bcbd51a74
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Sat Apr 22 23:16:08 2023 -0400
+
+    Merge pull request #2869 from mybatis/renovate/ch.qos.logback-logback-classic-1.x
+    
+    Update dependency ch.qos.logback:logback-classic to v1.4.7
+
+[33mcommit 0eeb00b790952c4f36b2081bd645e0fb0b2d7fe4[m
+Merge: bcd28d773 87aa13b73
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Sat Apr 22 22:26:19 2023 -0400
+
+    Merge pull request #2867 from mybatis/renovate/com.mysql-mysql-connector-j-8.x
+    
+    Update dependency com.mysql:mysql-connector-j to v8.0.33
+
+[33mcommit bcbd51a74079edb079fb39f3547d0d501128fd07[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Sun Apr 23 02:26:07 2023 +0000
+
+    Update dependency ch.qos.logback:logback-classic to v1.4.7
+
+[33mcommit bcd28d773a243ceb2e1f4b62c69cae320811ebaf[m
+Merge: a7e93b019 566a99375
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Sat Apr 22 22:25:49 2023 -0400
+
+    Merge pull request #2870 from mybatis/renovate/mockito-monorepo
+    
+    Update mockito monorepo to v5.3.1
+
+[33mcommit 566a99375fd37ce7c70dcc901acd88bf619cdb90[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Fri Apr 21 21:23:48 2023 +0000
+
+    Update mockito monorepo to v5.3.1
+
+[33mcommit 87aa13b73d2bea386589b4fdcb4e7b7228cf64ff[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Tue Apr 18 15:34:38 2023 +0000
+
+    Update dependency com.mysql:mysql-connector-j to v8.0.33
+
+[33mcommit a7e93b019e422fded9f01933ffae67d412490313[m
+Merge: d7dcb487a f6a63f91b
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Tue Apr 11 23:13:17 2023 -0400
+
+    Merge pull request #2864 from mybatis/renovate/mockito-monorepo
+    
+    Update mockito monorepo to v5.3.0
+
+[33mcommit f6a63f91b81523089071ba78e63728234772c674[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Tue Apr 11 22:04:05 2023 +0000
+
+    Update mockito monorepo to v5.3.0
+
+[33mcommit d7dcb487afa718b315340f6bd758387804f71298[m
+Merge: 1ff4a865e 06fae43f8
+Author: Iwao AVE! <harawata@gmail.com>
+Date:   Sun Apr 9 17:16:30 2023 +0900
+
+    Merge pull request #2784 from awxiaoxian2020/convert-md-en
+    
+    Convert the doc format to Markdown for en
+
+[33mcommit 06fae43f8de7a15a12a9d32284af5113bcc79215[m
+Author: Iwao AVE! <harawata@gmail.com>
+Date:   Sun Apr 9 02:30:59 2023 +0900
+
+    Fixed some obvious issues
+
+[33mcommit 1ff4a865e77acfa51e8eaaf7bf605f5cf098093f[m
+Merge: e21931858 68f368256
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Thu Apr 6 22:45:06 2023 -0400
+
+    Merge pull request #2857 from mybatis/renovate/testcontainers-java-monorepo
+    
+    Update testcontainers-java monorepo to v1.18.0
+
+[33mcommit 68f368256a9c7a2659832d3c6462c71756126073[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Tue Apr 4 19:29:12 2023 +0000
+
+    Update testcontainers-java monorepo to v1.18.0
+
+[33mcommit f6536bf4deff7d3c171489148855bc63ccd865b2[m
+Author: Xavi Lee <awxiaoxian2020@163.com>
+Date:   Tue Apr 4 12:28:53 2023 +0800
+
+    format table
+
+[33mcommit 921c8a7fc213b636d7c7758db251652a6ad64d45[m
+Author: Xavi Lee <awxiaoxian2020@163.com>
+Date:   Tue Apr 4 12:02:48 2023 +0800
+
+    use HTML entity to escape
+
+[33mcommit e1f7237100b0b32073090ba67e76fc6d8005990c[m
+Author: Xavi Lee <awxiaoxian2020@163.com>
+Date:   Mon Apr 3 17:48:51 2023 +0800
+
+    restore site configuration
+
+[33mcommit a15edfa280aa726dc65b44e3eb73e5cf067cada9[m
+Author: Xavi Lee <awxiaoxian2020@163.com>
+Date:   Thu Mar 30 15:39:23 2023 +0800
+
+    use ascii to escape
+
+[33mcommit ee0d06390f0d312ae1a951bebd41fef1bdad7fbd[m
+Merge: d1654a67a e21931858
+Author: Xavi Lee <awxiaoxian2020@163.com>
+Date:   Thu Mar 23 15:12:59 2023 +0800
+
+    Merge branch 'master' into convert-md-en
+    
+    # Conflicts:
+    #       src/site/xdoc/configuration.xml
+    #       src/site/xdoc/logging.xml
+    #       src/site/xdoc/sqlmap-xml.xml
+
+[33mcommit d1654a67acfbbcf71795f6a2fe6fd9fbeba896ab[m
+Author: Xavi Lee <awxiaoxian2020@163.com>
+Date:   Thu Mar 23 15:02:36 2023 +0800
+
+    update
+
+[33mcommit e2193185830917b0b2efd33e55b040667793ba1d[m
+Merge: c9137b035 2f9468fa1
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Wed Mar 22 22:03:43 2023 -0400
+
+    Merge pull request #2855 from mybatis/renovate/ch.qos.reload4j-reload4j-1.x
+    
+    Update dependency ch.qos.reload4j:reload4j to v1.2.25
+
+[33mcommit 2f9468fa1f39a2cf5e58a8198919286a87a7d158[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Wed Mar 22 23:13:27 2023 +0000
+
+    Update dependency ch.qos.reload4j:reload4j to v1.2.25
+
+[33mcommit c9137b03592475708dd0305cf97ac7bbe70eefe8[m
+Author: wayn111 <1669738430@qq.com>
+Date:   Mon Mar 20 08:04:48 2023 +0800
+
+    Modify Comments: Configuration.StrictMap<V> put(String key, V value) … (#2854)
+    
+    * Modify Comments: Configuration.StrictMap<V> put(String key, V value) comments update.
+    
+    * Modify Comments: Configuration.StrictMap<V> put(String key, V value) comments update.
+    
+    * Modify Comments: Configuration.StrictMap<V> put(String key, V value) comments update.
+
+[33mcommit 9e43552af312ec0a4f8bee9fe99a83b4865bf4b3[m
+Merge: e14c88af8 c6fc5cf8b
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Sat Mar 18 19:43:26 2023 -0400
+
+    Merge pull request #2851 from mybatis/renovate/org.slf4j-slf4j-api-2.x
+    
+    Update dependency org.slf4j:slf4j-api to v2.0.7
+
+[33mcommit e14c88af85ecb58ae0d79da14c6819bc18f33a5c[m
+Merge: 30ba80d91 45b60a63b
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Sat Mar 18 19:43:17 2023 -0400
+
+    Merge pull request #2852 from mybatis/renovate/org.postgresql-postgresql-42.x
+    
+    Update dependency org.postgresql:postgresql to v42.6.0
+
+[33mcommit 30ba80d91011934377b7b1eef38fd7904904c3f8[m
+Merge: ffdbf28ea b44b35bc4
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Sat Mar 18 19:43:09 2023 -0400
+
+    Merge pull request #2853 from mybatis/renovate/maven-3.x
+    
+    Update dependency maven to v3.9.1
+
+[33mcommit b44b35bc4dadd078e774ac6a406cac7dd7808188[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Sat Mar 18 10:30:42 2023 +0000
+
+    Update dependency maven to v3.9.1
+
+[33mcommit 45b60a63b9fdf0b995602a61cbaa7574c1ff1c85[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Fri Mar 17 22:52:16 2023 +0000
+
+    Update dependency org.postgresql:postgresql to v42.6.0
+
+[33mcommit c6fc5cf8bb0597d13f8f5b880e4a736d8323d9a9[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Fri Mar 17 22:52:10 2023 +0000
+
+    Update dependency org.slf4j:slf4j-api to v2.0.7
+
+[33mcommit ffdbf28ea46fc7e76bcc78c133928d47f95f7549[m
+Merge: 3954c72b7 7ef34f900
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Fri Mar 17 18:51:45 2023 -0400
+
+    Merge pull request #2850 from mybatis/renovate/ch.qos.logback-logback-classic-1.x
+    
+    Update dependency ch.qos.logback:logback-classic to v1.4.6
+
+[33mcommit 7ef34f900d492bb314551670751ee91a445cfda8[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Wed Mar 15 17:18:48 2023 +0000
+
+    Update dependency ch.qos.logback:logback-classic to v1.4.6
+
+[33mcommit 3954c72b7ff8690a17dda55dae34cfe15f4a51c0[m
+Merge: 2a18de521 f5277a1f7
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Mon Mar 13 18:59:06 2023 -0400
+
+    Merge pull request #2848 from mybatis/renovate/maven-wrapper-3.x
+    
+    Update dependency maven-wrapper to v3.2.0
+
+[33mcommit 2a18de52143335a0dbb1573d5cb1a3757a424be2[m
+Author: Iwao AVE! <harawata@gmail.com>
+Date:   Mon Mar 13 16:47:09 2023 +0900
+
+    [doc] Possible false-positives in `autoMappingUnknownColumnBehavior` [skip ci]
+
+[33mcommit f5277a1f72b299b01228f90c6d4c64c190c3dcc4[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Sun Mar 12 20:05:51 2023 +0000
+
+    Update dependency maven-wrapper to v3.2.0
+
+[33mcommit e68216bbcc798a29d6b763bfe6b8942126c23a7c[m
+Author: Iwao AVE! <harawata@gmail.com>
+Date:   Sat Mar 11 14:47:08 2023 +0900
+
+    [maven-release-plugin] prepare for next development iteration
+
+[33mcommit 17f5ac72062b3cdf25be21767a757ce0de05485f[m
+Author: Iwao AVE! <harawata@gmail.com>
+Date:   Sat Mar 11 14:47:04 2023 +0900
+
+    [maven-release-plugin] prepare release mybatis-3.5.13
+
+[33mcommit bce6fcafeb37b36062e6ad5c35fee55b6041ae5c[m
+Author: Iwao AVE! <harawata@gmail.com>
+Date:   Sat Mar 11 14:34:33 2023 +0900
+
+    Format, license header
+
+[33mcommit 9a4fc60f1f45a7e3c73f16ddff21a7564c4c6b16[m
+Merge: 2a422f37c b9364911a
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Fri Mar 10 13:04:53 2023 -0500
+
+    Merge pull request #2845 from mybatis/renovate/mockito-monorepo
+    
+    Update mockito monorepo to v5.2.0
+
+[33mcommit b9364911a98053d5a1e815546f1ed62d4fc425e8[m
+Author: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Date:   Thu Mar 9 20:39:46 2023 +0000
+
+    Update mockito monorepo to v5.2.0
+
+[33mcommit 2a422f37cfd5c96e2c1228d8226db7046f29cc3a[m
+Merge: b83c0f2ed cfde85752
+Author: Iwao AVE! <harawata@gmail.com>
+Date:   Thu Mar 9 03:43:02 2023 +0900
+
+    Merge pull request #2841 from harawata/gh-2834-result-map-regression
+    
+    gh-2834 result map regression
+
+[33mcommit cfde857528edd9c4c67b3778e49331d43b4e5317[m
+Author: Iwao AVE! <harawata@gmail.com>
+Date:   Wed Mar 8 05:36:09 2023 +0900
+
+    Added a test, updated docs and error message for clarity
+
+[33mcommit dbb27ef0d7610e97a7aacf9f3045aae059a7992c[m
+Author: Iwao AVE! <harawata@gmail.com>
+Date:   Tue Mar 7 20:01:30 2023 +0900
+
+    Reverting #2804
+    
+    Result mapping java type resolution fails when the target property has different types for writing and reading. #2834
+
+[33mcommit b83c0f2edfcc1727941981adcf79b301c3a3b131[m
+Merge: acb63bf37 5ae537cad
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Mon Mar 6 13:19:51 2023 -0500
+
+    Merge pull request #2837 from SeasonPanPan/Optimize-Configuration-checkResultMaps
+    
+    Optimize the loop of resultMaps in Configuration
+
+[33mcommit 5ae537cadd16bf617b9f4507e494d44ce63ec002[m
+Author: SeasonPan <244014926@qq.com>
+Date:   Sat Mar 4 21:55:51 2023 +0800
+
+    Optimize the loop of resultMaps in Configuration
+
+[33mcommit acb63bf375f0611e55e9317c34f3d50dff6a9ed7[m
+Merge: 51baa561a 15d0fad16
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Thu Mar 2 18:45:35 2023 -0500
+
+    Merge pull request #2813 from gallyamb/cursor-cache-oom
+    
+    [Test case] Using cursor causes OOM #2812
+
+[33mcommit 51baa561a30346fd8f3570700f100ba35f5c1ce3[m
+Merge: 5815aa471 334dab88b
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Thu Mar 2 18:45:04 2023 -0500
+
+    Merge pull request #2836 from puppylpg/zh-parameterType-error
+    
+    fix Chinese translation error for `parameterType`
+
+[33mcommit 334dab88be47ad770e83ea441053f5997070e13c[m
+Author: puppylpg <shininglhb@163.com>
+Date:   Thu Mar 2 21:20:51 2023 +0800
+
+    fix Chinese translation error for `parameterType`
+
+[33mcommit 5815aa4717fd3eb375595e0b014c40e14f651b47[m
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Tue Feb 28 22:45:03 2023 -0500
+
+    [maven-release-plugin] prepare for next development iteration
+
+[33mcommit 3d6f9bdf1ade335748664d527fcec4c1852c504a[m
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Tue Feb 28 22:45:01 2023 -0500
+
+    [maven-release-plugin] prepare release mybatis-3.5.12
+
+[33mcommit 9c541e76d53d178bb00d695815c44f3852d10a6c[m
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Tue Feb 28 22:28:54 2023 -0500
+
+    [fix] Change formatter around javadoc to retain L&F and correct javadoc error
+
+[33mcommit 71f07d4846736d6b27318b66c230d66a647937c2[m
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Tue Feb 28 21:31:29 2023 -0500
+
+    [ci] Add release backup to gitignore
+
+[33mcommit d7978d679769844e4180a94dfe5ea398418edd0b[m
+Merge: 41afa7d45 c6f65044f
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Tue Feb 28 21:39:07 2023 -0500
+
+    Merge pull request #2831 from hogimn/test
+    
+    Use CountDownLatch to coordinate the execution order
+
+[33mcommit 41afa7d45c08be9305f2b81b4f6b5b226e3eb371[m
+Author: Jeremy Landis <jeremylandis@hotmail.com>
+Date:   Tue Feb 28 21:29:22 2023 -0500
+
+    [maven-release-plugin] prepare for next development iteration
